@@ -1,11 +1,27 @@
+import React from "react";
 import "./App.css";
-
-function App() {
+import Momani from "../src/Momani.jpg";
+export default function App() {
   return (
-    <div className="App">
-      <h1>Welcome To App</h1>
+    <div className="pageContainer">
+      <div className="pageWrapper">
+        <div className="top">
+          <div className="cover">
+            <img
+              className="coverImg"
+              src="https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png"
+              alt="cover"
+            ></img>
+          </div>
+          <div className="profile">
+            <img className="profileImg" src={Momani} alt="profile" />
+          </div>
+        </div>
+        <div className="down">
+          <div className="sideBar">mm</div>
+          <div className="dataPage">mm</div>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
