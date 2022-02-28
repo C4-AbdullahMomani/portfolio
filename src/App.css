@@ -59,15 +59,55 @@
 
   background-color: rgb(18, 99, 175);
 }
-.button{
+.dataPage {
+  width: 75vw;
+  height: 100%;
+  overflow: hidden;
+}
+.button {
   height: 10vh;
-  background-color: rgb(18, 99, 175) ;
+  background-color: rgb(18, 99, 175);
   color: white;
   font-size: 18pt;
   font-family: cursive;
   cursor: pointer;
-  
+  border: none;
 }
-.button:hover{
+.button:hover {
   background-color: rgb(97, 97, 114);
+}
+.h2 {
+  animation-duration: 2s;
+  animation-name: slidein;
+
+  margin-left: 10%;
+  font-size: 8ch;
+  width: 100%;
+  margin-top: 5%;
+}
+.p {
+  animation-duration: 2s;
+  animation-name: slidein;
+
+  margin-left: 10%;
+  font-size: 5ch;
+  width: 100%;
+  margin-top: 5%;
+}
+@keyframes slidein {
+  from {
+    font-size: 80%;
+
+    width: 250%;
+  }
+  /* 100% {
+    font-size:120%;
+    margin-left: 25%;
+    width: 150%;
+  } */
+  to {
+    font-size: calc();
+
+    width: 100%;
+  }
 }

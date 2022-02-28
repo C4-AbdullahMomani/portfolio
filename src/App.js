@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Momani from "../src/Momani.jpg";
 export default function App() {
+  const [about, setAbout] = useState(false);
   return (
     <div className="pageContainer">
       <div className="pageWrapper">
@@ -25,7 +26,10 @@ export default function App() {
             <button className="button">Education & Experience</button>
             <button className="button">Interests & Refferences</button>
           </div>
-          <div className="dataPage">mm</div>
+          <div className="dataPage">
+            <h2 className="h2">Abdallah Al-Momani</h2>
+            <p className="p">Full-Stack Web Developer</p>
+          </div>
         </div>
       </div>
     </div>
