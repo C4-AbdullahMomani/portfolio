@@ -18,7 +18,13 @@ export default function App() {
           </div>
         </div>
         <div className="down">
-          <div className="sideBar">mm</div>
+          <div className="sideBar">
+            <button className="button">About</button>
+            <button className="button">Skills</button>
+            <button className="button">Projects</button>
+            <button className="button">Education & Experience</button>
+            <button className="button">Interests & Refferences</button>
+          </div>
           <div className="dataPage">mm</div>
         </div>
       </div>

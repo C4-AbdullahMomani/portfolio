@@ -59,3 +59,15 @@
 
   background-color: rgb(18, 99, 175);
 }
+.button{
+  height: 10vh;
+  background-color: rgb(18, 99, 175) ;
+  color: white;
+  font-size: 18pt;
+  font-family: cursive;
+  cursor: pointer;
+  
+}
+.button:hover{
+  background-color: rgb(97, 97, 114);
+}
